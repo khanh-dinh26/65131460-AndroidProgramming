@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8F9FA"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUY ĐỔI TIỀN TỆ"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#1A73E8"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/edtSoTien"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập số tiền cần đổi"
+        android:inputType="numberDecimal"
+        android:background="@android:color/white"
+        android:paddingHorizontal="15dp"
+        android:elevation="2dp" />
+
+    <EditText
+        android:id="@+id/edtTiGia"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Nhập tỉ giá (Đô la)"
+        android:inputType="numberDecimal"
+        android:background="@android:color/white"
+        android:paddingHorizontal="15dp"
+        android:elevation="2dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btnDoi"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="THỰC HIỆN QUY ĐỔI"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:onClick="XuLyDoiTien" />
+
+    <TextView
+        android:id="@+id/tvKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kết quả: "
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
