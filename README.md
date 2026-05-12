@@ -15,7 +15,7 @@
 <img width="300" alt="chuc_nang_4" src="https://github.com/user-attachments/assets/d1a38bba-49b1-436d-ad2d-29f86b46a22f" />
 
 *Các chức năng: Menu Chính | Quy Đổi Tiền | Danh Nhân Lịch Sử | Danh sách bài hát | Thông Tin Cá Nhân*
-<br>*Bài thi giữa kỳ: Xây dựng ứng dụng đa màn hình sử dụng Intent. Tích hợp xử lý tính toán, giao diện ListView cơ bản và Custom ListView (Adapter Pattern) hiển thị danh nhân.*
+<br>*Bài thi giữa kỳ: Xây dựng ứng dụng đa màn hình sử dụng Intent. Tích hợp xử lý tính toán, giao diện ListView cơ bản và Custom ListView.*
 
 ---
 ### BaiTH13: Fragment Thay Đổi (BaiTH13ThayDoiFragment)
